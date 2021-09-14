@@ -1,5 +1,30 @@
-.header {
+/*Primary Colors*/
+$very-dark-magenta: hsl(300, 43%, 22%);
+$soft-pink: hsl(333, 80%, 67%);
 
+/*Neutral Colors*/
+$dark-grayish-magenta: hsl(303, 10%, 53%);
+$light-grayish-magenta: hsl(300, 24%, 96%);
+$white: hsl(0, 0%, 100%);
+
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
+/*font-family: 'Spartan', sans-serif;*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 15px;
+}
+
+.header {
+background: url("../Social\ Proof\ Section\ Solution/img/bg-pattern-top-mobile.svg"); /*Change this when you insert it in last CSS Folder*/
+background-repeat: no-repeat;
+background-position: left top;
     &__title {
 
     }
@@ -9,7 +34,9 @@
 }
 
 main {
-
+background: url("../Social\ Proof\ Section\ Solution/img/bg-pattern-bottom-mobile.svg");
+background-repeat: no-repeat;
+background-position: 100% 100%;
 }
 
 .ratings-container, .testimonials-container {
