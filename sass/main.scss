@@ -19,32 +19,58 @@ body, html {
     box-sizing: border-box;
     text-align: center;
     font-size: 15px;
+    font-family: 'Spartan', sans-serif;
+}
+
+body {
+    background: url("../Social\ Proof\ Section\ Solution/img/bg-pattern-top-mobile.svg"), url("../Social\ Proof\ Section\ Solution/img/bg-pattern-bottom-mobile.svg"); /*Change this when you insert it in last CSS Folder*/
+    background-repeat: no-repeat, no-repeat;
+    background-position: 0% 0%, 100% 100%;
+}
+
+.header__title, .rating__description {
+    color: $very-dark-magenta;
+}
+
+.buyer__name, .buyer__testimonial {
+    color: $white;
+}
+
+.rating__description, .buyer__name {
+    font-weight: 700;
 }
 
 .header {
-background: url("../Social\ Proof\ Section\ Solution/img/bg-pattern-top-mobile.svg"); /*Change this when you insert it in last CSS Folder*/
-background-repeat: no-repeat;
-background-position: left top;
+    margin: 6.67rem 0 3rem 0;
     &__title {
-
+        width: 85%;
+        margin: 0 auto 1.34rem auto;
     }
     &__description {
-
+        color: $dark-grayish-magenta;
+        width: 77%;
+        font-size: .85rem;
+        font-weight: 500;
+        margin: 0 auto;
     }
 }
 
 main {
-background: url("../Social\ Proof\ Section\ Solution/img/bg-pattern-bottom-mobile.svg");
-background-repeat: no-repeat;
-background-position: 100% 100%;
+margin-bottom: 6.67rem;
 }
 
 .ratings-container, .testimonials-container {
-
+width: 90%;
 }
 
+.ratings-container {
+    margin: 0 auto 3rem auto;
+}
 .rating {
-
+    background: $light-grayish-magenta;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: .5rem;
     &__start-icon {
 
     }
@@ -55,18 +81,24 @@ background-position: 100% 100%;
 }
 
 .buyer {
-
+    background: $very-dark-magenta;
+    border-radius: 1rem;
+    margin-bottom: 1.5rem;
     &__image {
-
+        border-radius: 50%;
     }
     &__name {
 
     }
     &__status {
-
+        color: $soft-pink
     }
 }
 
-.testimonial {
-    
+.testimonials-container {
+    margin: 0 auto;
+}
+
+.buyer__testimonial {
+
 }
