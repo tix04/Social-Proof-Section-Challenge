@@ -32,16 +32,16 @@ body {
     color: $very-dark-magenta;
 }
 
-.buyer__name, .buyer__testimonial {
+.buyer-profile__name {
     color: $white;
 }
 
-.rating__description, .buyer__name {
+.rating__description, .buyer-profile__name {
     font-weight: 700;
 }
 
 .header {
-    margin: 6.67rem 0 3rem 0;
+    margin: 5.5rem 0 3rem 0;
     &__title {
         width: 85%;
         margin: 0 auto 1.34rem auto;
@@ -56,7 +56,7 @@ body {
 }
 
 main {
-margin-bottom: 6.67rem;
+margin-bottom: 5.5rem;
 }
 
 .ratings-container, .testimonials-container {
@@ -71,34 +71,39 @@ width: 90%;
     margin-bottom: 1rem;
     padding: 1rem;
     border-radius: .5rem;
-    &__start-icon {
-
-    }
-
-    &__description {
-
-    }
 }
 
-.buyer {
-    background: $very-dark-magenta;
-    border-radius: 1rem;
-    margin-bottom: 1.5rem;
-    &__image {
-        border-radius: 50%;
-    }
-    &__name {
-
-    }
-    &__status {
-        color: $soft-pink
-    }
-}
-
-.testimonials-container {
+.testimonials-container, .buyer-profile, .buyer-profile__testimonial{
     margin: 0 auto;
 }
 
-.buyer__testimonial {
+.buyer-profile {
+    background: $very-dark-magenta;
+    border-radius: 1rem;
+    margin-bottom: 1.5rem;
+    padding: 2rem;
+    &__image {
+        border-radius: 50%;
+        width: 3rem;
+    }
+    &__status {
+        color: hsl(333, 35%, 53%);
+    }
+}
 
+.buyer-profile__container {
+    width: 75%;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;;
+}
+
+.buyer-profile__testimonial {
+    text-align: left;
+    width: 90%;
+    font-size: .8rem;
+    line-height: 1.3rem;
+    color: hsl(0, 0%, 90%);
 }
