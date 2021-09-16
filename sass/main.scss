@@ -83,6 +83,9 @@ width: 90%;
     margin-bottom: 1rem;
     padding: 1rem;
     border-radius: .5rem;
+    &__description {
+        margin-top: .7rem;
+    }
 }
 
 .testimonials-container, .buyer-profile, .buyer-profile__testimonial{
