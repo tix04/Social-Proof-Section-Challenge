@@ -16,7 +16,7 @@ body, html {
 }
 
 body {
-  background: url("../Social Proof Section Solution/img/bg-pattern-top-mobile.svg"), url("../Social Proof Section Solution/img/bg-pattern-bottom-mobile.svg");
+  background: url("../img/bg-pattern-top-mobile.svg"), url("../img/bg-pattern-bottom-mobile.svg");
   /*Change this when you insert it in last CSS Folder*/
   background-repeat: no-repeat, no-repeat;
   background-position: 0% 0%, 100% 100%;
@@ -124,7 +124,7 @@ main {
 
 @media screen and (min-width: 1000px) {
   body {
-    background: url("../Social Proof Section Solution/img/bg-pattern-top-desktop.svg"), url("../Social Proof Section Solution/img/bg-pattern-bottom-desktop.svg");
+    background: url("../img/bg-pattern-top-desktop.svg"), url("../img/bg-pattern-bottom-desktop.svg");
     /*Change this when you insert it in last CSS Folder*/
     background-repeat: no-repeat, no-repeat;
     background-position: 0% 0%, 100% 100%;
